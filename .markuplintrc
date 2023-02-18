@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "markuplint:html-standard",
+    "markuplint:a11y"
+  ],
+  "parser": {
+    ".astro$": "@markuplint/astro-parser"
+  }
+}

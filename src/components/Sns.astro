@@ -1,0 +1,19 @@
+---
+export interface Props {
+  name: string;
+  href: string;
+  imagePath: string;
+}
+
+const { name, href, imagePath } = Astro.props;
+---
+
+<a
+  href={href}
+  target='_blank'
+  rel='noreferrer noopener'
+  class='flex items-center gap-2 group'
+>
+  <img src={imagePath} width='20' height='20' aria-hidden='true' />
+  <span class='group-hover:underline text-blue-700 text-lg'>{name}</span>
+</a>

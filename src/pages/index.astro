@@ -1,9 +1,59 @@
 ---
+import Activity from '../components/Activity.astro';
+import Sns from '../components/Sns.astro';
+import { activities } from '../const/activities';
+import { sns } from '../const/sns';
 import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout title="yoiw.dev">
-	<main>
-		<h1>Hello World</h1>
-	</main>
+<Layout title='yoiw.dev'>
+  <main class='px-6 pt-8 bg-gray-50 min-h-screen text-gray-800'>
+    <div class='mx-auto max-w-xl grid grid-cols-1 gap-10'>
+      <section class='flex flex-col items-center gap-4'>
+        <img
+          src='/assets/me.png'
+          width='120'
+          height='120'
+          alt=''
+          class='rounded-full'
+        />
+        <div class='flex flex-col items-center gap-3'>
+          <h1 class='text-3xl font-medium'>Yo Iwamoto</h1>
+          <p class='text-sm'>Web Front-end Developer</p>
+          <p class='max-w-sm'>
+            大学在学中は受託開発を経験。 2022年4月に株式会社PR TIMES
+            に入社し、フロントエンドのアプリケーション実装・開発基盤改善などを行っています。
+          </p>
+        </div>
+      </section>
+
+      <section class='flex flex-col items-center gap-4 md:items-start'>
+        <h2 class='text-3xl font-medium'>Follow me on</h2>
+        <hr class='border w-3/5 md:w-full border-gray-200' />
+        <ul class='grid grid-cols-1 gap-1'>
+          {
+            sns.map(({ name, href, imagePath }) => (
+              <li>
+                <Sns name={name} href={href} imagePath={imagePath} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class='flex flex-col items-center gap-4 md:items-start'>
+        <h2 class='text-3xl font-medium'>Activities</h2>
+        <hr class='border w-3/5 md:w-full border-gray-200' />
+        <ul class='grid grid-cols-1 gap-5'>
+          {
+            activities.map(({ title, href, date }) => (
+              <li>
+                <Activity title={title} href={href} date={date} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </div>
+  </main>
 </Layout>

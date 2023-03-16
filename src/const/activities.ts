@@ -1,5 +1,11 @@
 export const activities = [
   {
+    title:
+      'blog.yoiw.dev：app directory の Route Handlers を使う・API Routes からの変更点',
+    href: 'https://blog.yoiw.dev/entries/route-handlers-next-13',
+    date: '2023.03.16',
+  },
+  {
     title: 'PR TIMES開発者ブログ：Webpack から Vite に段階的に移行しました',
     href: 'https://developers.prtimes.jp/2023/02/08/migrate-from-webpack-to-vite/',
     date: '2023.02.08',

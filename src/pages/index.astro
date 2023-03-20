@@ -1,7 +1,9 @@
 ---
 import Activity from '../components/Activity.astro';
+import App from '../components/App.astro';
 import Sns from '../components/Sns.astro';
 import { activities } from '../const/activities';
+import { apps } from '../const/apps';
 import { sns } from '../const/sns';
 import Layout from '../layouts/Layout.astro';
 ---
@@ -35,6 +37,25 @@ import Layout from '../layouts/Layout.astro';
             sns.map(({ name, href, imagePath }) => (
               <li>
                 <Sns name={name} href={href} imagePath={imagePath} />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class='flex flex-col items-center gap-4 md:items-start'>
+        <h2 class='text-3xl font-medium'>MyApps</h2>
+        <hr class='border w-3/5 md:w-full border-gray-200' />
+        <ul class='grid grid-cols-1 sm:grid-cols-2 gap-6'>
+          {
+            apps.map(({ name, url, imageUrl, imageAlt }) => (
+              <li>
+                <App
+                  name={name}
+                  url={url}
+                  imageUrl={imageUrl}
+                  imageAlt={imageAlt}
+                />
               </li>
             ))
           }

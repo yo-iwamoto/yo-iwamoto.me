@@ -12,7 +12,7 @@ export const activities = [
   {
     title:
       'blog.yoiw.dev：app directory の Route Handlers を使う・API Routes からの変更点',
-    href: 'https://blog.yoiw.dev/entries/route-handlers-next-13',
+    href: 'https://blog.yoiw.dev/posts/route-handlers',
     date: '2023.03.15',
   },
   {

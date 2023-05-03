@@ -5,11 +5,6 @@ export const activities = [
     date: '2023.03.21',
   },
   {
-    title: 'blog.yoiw.dev：Yarn の link protocol と alias',
-    href: 'https://blog.yoiw.dev/entries/yarn-link-and-module-alias',
-    date: '2023.03.16',
-  },
-  {
     title:
       'blog.yoiw.dev：app directory の Route Handlers を使う・API Routes からの変更点',
     href: 'https://blog.yoiw.dev/posts/route-handlers',

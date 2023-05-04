@@ -1,6 +1,11 @@
 export const activities = [
   {
-    title: 'Contentlayer で記事を markdown 管理する',
+    title: 'Zenn：Vercel はもっと薄く使える',
+    href: 'https://zenn.dev/you_5805/articles/vanilla-vercel-functions',
+    date: '2023.05.04',
+  },
+  {
+    title: 'Zenn：Contentlayer で記事を markdown 管理する',
     href: 'https://zenn.dev/you_5805/articles/contentlayer',
     date: '2023.05.04',
   },

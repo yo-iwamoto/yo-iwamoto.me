@@ -1,5 +1,10 @@
 export const activities = [
   {
+    title: 'Zenn：最小限の gssp → App Router 移行パターン集',
+    href: 'https://zenn.dev/you_5805/articles/approuter-minimum-migration',
+    date: '2023.06.10',
+  },
+  {
     title: 'Zenn：Vercel はもっと薄く使える',
     href: 'https://zenn.dev/you_5805/articles/vanilla-vercel-functions',
     date: '2023.05.04',

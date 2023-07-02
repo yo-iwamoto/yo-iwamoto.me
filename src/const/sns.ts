@@ -1,5 +1,13 @@
 export const sns = [
   {
+    name: 'Bluesky',
+    href: 'https://yoiwamoto.bsky.social',
+  },
+  {
+    name: 'Misskey',
+    href: 'https://misskey.io/@yoiwamoto',
+  },
+  {
     name: 'Twitter',
     href: 'https://twitter.com/yoiwamoto',
     imagePath: '/assets/twitter.svg',
@@ -12,5 +20,5 @@ export const sns = [
 ] satisfies {
   name: string;
   href: string;
-  imagePath: string;
+  imagePath?: string;
 }[];

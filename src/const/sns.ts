@@ -8,6 +8,10 @@ export const sns = [
     href: 'https://misskey.io/@yoiwamoto',
   },
   {
+    name: 'Threads',
+    href: 'https://www.threads.net/@yoiwamoto_',
+  },
+  {
     name: 'Twitter',
     href: 'https://twitter.com/yoiwamoto',
     imagePath: '/assets/twitter.svg',

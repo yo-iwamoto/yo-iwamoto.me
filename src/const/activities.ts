@@ -1,5 +1,11 @@
 export const activities = [
   {
+    title:
+      '登壇：PWA Night vol.54 〜移行〜「PR TIMES での Webpack → Vite 移行事例」',
+    href: 'https://pwanight.connpass.com/event/291223/',
+    date: '2023.08.23',
+  },
+  {
     title: 'Zenn：最小限の gssp → App Router 移行パターン集',
     href: 'https://zenn.dev/you_5805/articles/approuter-minimum-migration',
     date: '2023.06.10',

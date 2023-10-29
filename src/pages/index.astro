@@ -1,9 +1,11 @@
 ---
 import Activity from '../components/Activity.astro';
 import App from '../components/App.astro';
+import OssActivities from '../components/OssActivities.astro';
 import Sns from '../components/Sns.astro';
 import { activities } from '../const/activities';
 import { apps } from '../const/apps';
+import { ossActivities } from '../const/ossActivities';
 import { sns } from '../const/sns';
 import Layout from '../layouts/Layout.astro';
 ---
@@ -56,6 +58,20 @@ import Layout from '../layouts/Layout.astro';
                   imageUrl={imageUrl}
                   imageAlt={imageAlt}
                 />
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section class='flex flex-col items-center gap-4 md:items-start'>
+        <h2 class='text-3xl font-medium'>OSS Contributions</h2>
+        <hr class='border w-3/5 md:w-full border-gray-200' />
+        <ul class='grid grid-cols-1 gap-5'>
+          {
+            ossActivities.map(({ repo, name, url, date }) => (
+              <li>
+                <OssActivities repo={repo} name={name} url={url} date={date} />
               </li>
             ))
           }

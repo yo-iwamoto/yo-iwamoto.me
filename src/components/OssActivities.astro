@@ -1,0 +1,23 @@
+---
+export interface Props {
+  date: string;
+  repo: string;
+  name: string;
+  url: string;
+}
+
+const { date, repo, name, url } = Astro.props;
+const datetime = date.replaceAll('.', '-');
+---
+
+<time datetime={datetime}>{date}</time>
+<p>
+  <a
+    href={url}
+    target='_blank'
+    rel='noreferrer noopener'
+    class='text-blue-700 md:text-lg hover:underline visited:text-purple-800'
+  >
+    {repo}: {name}
+  </a>
+</p>

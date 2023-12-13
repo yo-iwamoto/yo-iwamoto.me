@@ -1,6 +1,12 @@
 export const activities = [
   {
     title:
+      'PR TIMES開発者ブログ：【月間4200万PV】プレスリリース掲載ページの Next.js 移行でやったこと',
+    href: 'https://developers.prtimes.jp/2023/12/13/replace-press-release-page-with-nextjs/',
+    date: '2023.12.13',
+  },
+  {
+    title:
       'blog.yoiw.dev：Vitest の restoreMocks はとりあえず true でいいと思います',
     href: 'https://blog.yoiw.dev/posts/vitest-restore-mocks',
     date: '2023.11.06',
@@ -9,12 +15,6 @@ export const activities = [
     title: 'Zenn：Vitestの vi.mock は巻き上げられる',
     href: 'https://zenn.dev/you_5805/articles/vitest-mock-hoisting',
     date: '2023.11.06',
-  },
-  {
-    title:
-      '登壇：PWA Night vol.54 〜移行〜「PR TIMES での Webpack → Vite 移行事例」',
-    href: 'https://pwanight.connpass.com/event/291223/',
-    date: '2023.08.23',
   },
   {
     title:

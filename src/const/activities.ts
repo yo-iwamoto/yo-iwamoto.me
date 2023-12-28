@@ -1,6 +1,12 @@
 export const activities = [
   {
     title:
+      'PR TIMES開発者ブログ：PR TIMES のフロントエンドを支える技術 2023',
+    href: 'https://developers.prtimes.jp/2023/12/28/prtimes-frontend-stack-2023/',
+    date: '2023.12.28',
+  },
+  {
+    title:
       'PR TIMES開発者ブログ：【月間4200万PV】プレスリリース掲載ページの Next.js 移行でやったこと',
     href: 'https://developers.prtimes.jp/2023/12/13/replace-press-release-page-with-nextjs/',
     date: '2023.12.13',

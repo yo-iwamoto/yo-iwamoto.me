@@ -1,7 +1,11 @@
 export const activities = [
   {
-    title:
-      'PR TIMES開発者ブログ：PR TIMES のフロントエンドを支える技術 2023',
+    title: 'Zenn：Vitest Workspace でテストごとに異なる実行環境を使う',
+    href: 'https://zenn.dev/you_5805/articles/vitest-workspace',
+    date: '2023.12.29',
+  },
+  {
+    title: 'PR TIMES開発者ブログ：PR TIMES のフロントエンドを支える技術 2023',
     href: 'https://developers.prtimes.jp/2023/12/28/prtimes-frontend-stack-2023/',
     date: '2023.12.28',
   },

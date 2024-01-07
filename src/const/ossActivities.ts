@@ -1,5 +1,11 @@
 export const ossActivities = [
   {
+    repo: 'biomejs/biome',
+    name: 'feat(lint): implement a noGlobalEval rule',
+    url: 'https://github.com/biomejs/biome/pull/1133',
+    date: '2023.12.10',
+  },
+  {
     repo: 'kuma-ui/kuma-ui',
     name: '(chore) Update repository references after the organization transition',
     url: 'https://github.com/kuma-ui/kuma-ui/pull/254',

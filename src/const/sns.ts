@@ -11,7 +11,7 @@ export const sns = [
   },
   {
     name: 'GitHub',
-    href: 'https://github.com/you-5805',
+    href: 'https://github.com/yo-iwamoto',
     imagePath: '/assets/github.svg',
   },
   {

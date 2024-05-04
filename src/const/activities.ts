@@ -1,5 +1,10 @@
 export const activities = [
   {
+    title: 'Zenn：RSC での preload パターンの使い所',
+    href: 'https://zenn.dev/you_5805/articles/rsc-preload-pattern',
+    date: '2024.05.04',
+  },
+  {
     title: 'Zenn：Vitest Workspace でテストごとに異なる実行環境を使う',
     href: 'https://zenn.dev/you_5805/articles/vitest-workspace',
     date: '2023.12.29',

@@ -19,6 +19,11 @@ export const sns = [
     href: 'https://www.threads.net/@yoiwamoto_',
     imagePath: '/assets/threads.svg',
   },
+  {
+    name: 'Zenn',
+    href: 'https://zenn.dev/you_5805',
+    imagePath: '/assets/zenn.svg',
+  },
 ] satisfies {
   name: string;
   href: string;

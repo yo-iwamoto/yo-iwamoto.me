@@ -16,5 +16,9 @@ const { name, url, imageUrl, imageAlt } = Astro.props;
   class='flex gap-2 flex-col group'
 >
   <span class='text-2xl group-hover:text-gray-500'>{name}</span>
-  <img src={imageUrl} alt={imageAlt} class='group-hover:opacity-80' />
+  <img
+    src={imageUrl}
+    alt={imageAlt}
+    class='h-40 mx-auto w-auto group-hover:opacity-80'
+  />
 </a>

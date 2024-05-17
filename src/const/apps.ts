@@ -5,6 +5,12 @@ export const apps = [
     imageUrl: '/assets/meetupstudio.png',
     imageAlt: 'Meetup Studio',
   },
+  {
+    name: 'Queued',
+    url: 'https://queued.jp',
+    imageUrl: '/assets/queued.png',
+    imageAlt: 'Queued',
+  },
 ] satisfies {
   name: string;
   url: string;

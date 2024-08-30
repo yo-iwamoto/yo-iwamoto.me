@@ -1,5 +1,10 @@
 export const activities = [
   {
+    title: '登壇:「標準最高！標準はださくないぞ！」at fukuoka.ts #1',
+    href: 'https://speakerdeck.com/yoiwamoto/biao-zhun-zui-gao-biao-zhun-hadasakunaizo-at-fukuoka-dot-ts-number-1',
+    date: '2024.08.30',
+  },
+  {
     title: 'Zenn：RSC での preload パターンの使い所',
     href: 'https://zenn.dev/you_5805/articles/rsc-preload-pattern',
     date: '2024.05.04',

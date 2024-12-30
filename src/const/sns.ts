@@ -1,5 +1,10 @@
 export const sns = [
   {
+    name: 'mixi2',
+    href: 'https://mixi.social/@yoiwamoto',
+    imagePath: '/assets/mixi2.svg',
+  },
+  {
     name: 'X',
     href: 'https://x.com/yoiwamoto',
     imagePath: '/assets/x.png',

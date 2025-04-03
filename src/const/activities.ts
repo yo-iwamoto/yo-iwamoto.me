@@ -32,8 +32,8 @@ export const activities = [
   },
   {
     title:
-      'blog.yoiw.dev：Vitest の restoreMocks はとりあえず true でいいと思います',
-    href: 'https://blog.yoiw.dev/posts/vitest-restore-mocks',
+      'blog.yo-iwamoto.me：Vitest の restoreMocks はとりあえず true でいいと思います',
+    href: 'https://blog.yo-iwamoto.me/posts/vitest-restore-mocks',
     date: '2023.11.06',
   },
   {
@@ -69,8 +69,8 @@ export const activities = [
   },
   {
     title:
-      'blog.yoiw.dev：app directory の Route Handlers を使う・API Routes からの変更点',
-    href: 'https://blog.yoiw.dev/posts/route-handlers',
+      'blog.yo-iwamoto.me：app directory の Route Handlers を使う・API Routes からの変更点',
+    href: 'https://blog.yo-iwamoto.me/posts/route-handlers',
     date: '2023.03.15',
   },
   {

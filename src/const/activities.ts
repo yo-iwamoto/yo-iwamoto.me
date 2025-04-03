@@ -1,5 +1,10 @@
 export const activities = [
   {
+    title: 'SmartHR Tech Blog: Geolocation API を使う時に気をつけたいこと5選 ー 新機能「勤怠管理」の開発でわかったこと',
+    href: 'https://tech.smarthr.jp/entry/kintai-geolocation-api',
+    date: '2025.04.03',
+  },
+  {
     title: '登壇:「標準最高！標準はださくないぞ！」at fukuoka.ts #1',
     href: 'https://speakerdeck.com/yoiwamoto/biao-zhun-zui-gao-biao-zhun-hadasakunaizo-at-fukuoka-dot-ts-number-1',
     date: '2024.08.30',

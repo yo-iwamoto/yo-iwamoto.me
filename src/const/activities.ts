@@ -1,11 +1,26 @@
 export const activities = [
   {
+    title: 'LT: プロダクト開発でも使おう 関数のオーバーロード - TSKaigi 2025事後勉強会 —— まだまだ型りたい',
+    href: 'https://speakerdeck.com/yoiwamoto/purodakutokai-fa-demoshi-ou-guan-shu-noobarodo',
+    date: '2025.06.06',
+  },
+  {
+    title: 'LT: クラサバ境界を失った現代 TypeScript コードベースに秩序をもたらしたい - TSKaigi 2025',
+    href: 'https://2025.tskaigi.org/talks/yoiwamoto',
+    date: '2025.05.24',
+  },
+  {
+    title: 'LT: inert という横断的 API について',
+    href: 'https://browser-and-ui.connpass.com/event/343524/',
+    date: '2025.04.28',
+  },
+  {
     title: 'SmartHR Tech Blog: Geolocation API を使う時に気をつけたいこと5選 ー 新機能「勤怠管理」の開発でわかったこと',
     href: 'https://tech.smarthr.jp/entry/kintai-geolocation-api',
     date: '2025.04.03',
   },
   {
-    title: '登壇:「標準最高！標準はださくないぞ！」at fukuoka.ts #1',
+    title: 'LT:「標準最高！標準はださくないぞ！」at fukuoka.ts #1',
     href: 'https://speakerdeck.com/yoiwamoto/biao-zhun-zui-gao-biao-zhun-hadasakunaizo-at-fukuoka-dot-ts-number-1',
     date: '2024.08.30',
   },

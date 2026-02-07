@@ -29,10 +29,10 @@ import Layout from '../layouts/Layout.astro';
         </div>
       </section>
 
-      <section class='flex flex-col items-center gap-4 md:items-start'>
+      <section class='flex flex-col items-center gap-4'>
         <h2 class='text-3xl font-medium'>Follow me on</h2>
         <hr class='border w-3/5 md:w-full border-gray-200' />
-        <ul class='flex flex-wrap justify-center gap-2'>
+        <ul class='flex flex-wrap w-full justify-center gap-2'>
           {
             sns.map(({ name, href, imagePath }) => (
               <li>
@@ -43,7 +43,7 @@ import Layout from '../layouts/Layout.astro';
         </ul>
       </section>
 
-      <section class='flex flex-col items-center gap-4 md:items-start'>
+      <section class='flex flex-col items-center gap-4'>
         <h2 class='text-3xl font-medium'>Activities</h2>
         <hr class='border w-3/5 md:w-full border-gray-200' />
         <ul class='grid grid-cols-1 gap-5'>
@@ -57,7 +57,7 @@ import Layout from '../layouts/Layout.astro';
         </ul>
       </section>
 
-      <section class='flex flex-col items-center gap-4 md:items-start'>
+      <section class='flex flex-col items-center gap-4'>
         <h2 class='text-3xl font-medium'>OSS Contributions</h2>
         <hr class='border w-3/5 md:w-full border-gray-200' />
         <ul class='grid grid-cols-1 gap-5'>

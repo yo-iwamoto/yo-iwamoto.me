@@ -1,9 +1,9 @@
-import tailwindIntegration from '@astrojs/tailwind';
 import { defineConfig } from 'astro/config';
+import tailwind from '@tailwindcss/vite';
 
 export default defineConfig({
-  integrations: [tailwindIntegration()],
   vite: {
+    plugins: [tailwind()],
     server: {
       open: true,
     },

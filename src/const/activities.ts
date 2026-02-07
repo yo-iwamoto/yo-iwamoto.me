@@ -1,5 +1,10 @@
 export const activities = [
   {
+    title: 'こんなフィーチャーフラグはイヤだ - アンチパターンから考える消しやすいフィーチャーフラグの使い方',
+    href: 'https://tech.smarthr.jp/entry/2026/01/21/122337',
+    date: '2026.01.21',
+  },
+  {
     title: 'LT: プロダクト開発でも使おう 関数のオーバーロード - TSKaigi 2025事後勉強会 —— まだまだ型りたい',
     href: 'https://speakerdeck.com/yoiwamoto/purodakutokai-fa-demoshi-ou-guan-shu-noobarodo',
     date: '2025.06.06',
